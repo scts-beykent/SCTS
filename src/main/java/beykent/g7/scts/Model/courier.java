@@ -2,7 +2,6 @@ package beykent.g7.scts.Model;
 
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
-import scts.Model.packet;
 
 import javax.persistence.*;
 import java.util.List;
