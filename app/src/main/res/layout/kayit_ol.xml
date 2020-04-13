@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <Button
+        android:id="@+id/angry_btn1"
+        android:layout_width="160dp"
+        android:layout_height="64dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="KAYIT"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,NotSibling"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A199A6EA"
+        android:clickable="false"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Ad"
+        android:inputType="text"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+
+        android:visibility="visible"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256dp"
+        android:background="#A199A6EA"
+        android:clickable="false"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Soyad"
+        android:inputType="text"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:background="#A199A6EA"
+        android:clickable="false"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="368dp"
+        android:background="#A199A6EA"
+        android:clickable="false"
+        android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Şifre Tekrarı"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="110dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A199A6EA"
+        android:drawableLeft="@drawable/ic_mail_outline_black_24dp"
+        android:drawingCacheQuality="auto"
+        android:ems="10"
+        android:foregroundTint="#000000"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="295dp"
+        tools:text="E-Posta Adresi" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="210dp"
+        android:layout_height="103dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints,NotSibling,UnknownId"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="-18dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

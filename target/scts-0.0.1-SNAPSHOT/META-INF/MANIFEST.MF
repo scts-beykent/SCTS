@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Created-By: IntelliJ IDEA
-Built-By: ekaygusuz
-Build-Jdk: 1.8.0_222
-Implementation-Title: scts
-Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: beykent.g7
-Main-Class: ${start-class}
-
